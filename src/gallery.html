@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallerii</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="gallery.js"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Kodu</a></li>
+            <li><a href="gallery.html">Gallerii</a></li>
+            <li><a href="sketch.html">Visand</a></li>
+            <li><a href="food.html">Toidupilt API abil</a></li>
+            <li><a href="https://example.com">Wordpressi link</a></li>
+            <li><a href="#">PHP rakenduse link</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="gallery">
+        <h1>Gallerii</h1>
+        <p>Siin on mõned ilusad pildid minu aparaatidest</p>
+
+        <div class="slideshow-container">
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <img id="gallery-image" src="images/gallery1.jpg" alt="Gallery Image">
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+        <p>Sinine - BMW E36 M3</p>
+        <p>Must - BMW E36 328</p>
+    </section>
+</main>
+</body>
+</html>
